@@ -7,7 +7,7 @@ GET  /api/actions/{id}         → single action detail
 POST /api/actions/{id}/approve → approve with optional note 
 POST /api/actions/{id}/dismiss → dismiss with reason
 GET  /api/actions/{id}/memo    → generate policy memo text  
-GET  /api/actions/digest       → daily digest 
+GET  /api/actions/digest       → daily digest  
 """
 
 from fastapi import APIRouter, Query, HTTPException
