@@ -12,7 +12,7 @@ GET  /api/actions/digest       → daily digest
 
 from fastapi import APIRouter, Query, HTTPException
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional 
 
 from engines.action_queue      import generate_action_queue, generate_policy_memo, get_queue_summary
 from engines.intervention_engine import generate_daily_digest
