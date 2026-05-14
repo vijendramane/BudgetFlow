@@ -1,0 +1,16 @@
+New-Item -ItemType File -Force .gitignore
+```
+
+Then open it and paste this:
+```
+node_modules/
+__pycache__/
+*.pyc
+.env
+.next/
+*.csv
+venv/
+.DS_Store
+
+
+

@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Backgrounds */
+  --bg-primary:    #070c18;
+  --bg-secondary:  #0d1424;
+  --bg-card:       #111827;
+  --bg-elevated:   #1a2235;
+  --bg-hover:      #162032;
+
+  /* Borders */
+  --border:        #1e2d45;
+  --border-hover:  #2a3f5f;
+
+  /* Text */
+  --text-primary:  #e2e8f0;
+  --text-secondary:#94a3b8;
+  --text-muted:    #475569;
+  --text-dim:      #1e2d45;
+
+  /* Accents */
+  --cyan:          #00d4ff;
+  --cyan-dim:      rgba(0, 212, 255, 0.1);
+  --cyan-glow:     rgba(0, 212, 255, 0.25);
+
+  --purple:        #a855f7;
+  --purple-dim:    rgba(168, 85, 247, 0.1);
+
+  --blue:          #3b82f6;
+  --blue-dim:      rgba(59, 130, 246, 0.1);
+
+  /* Status */
+  --red:           #ef4444;
+  --red-dim:       rgba(239, 68, 68, 0.1);
+
+  --amber:         #f59e0b;
+  --amber-dim:     rgba(245, 158, 11, 0.1);
+
+  --green:         #10b981;
+  --green-dim:     rgba(16, 185, 129, 0.1);
+
+  --orange:        #f97316;
+  --orange-dim:    rgba(249, 115, 22, 0.1);
+
+  /* Chart colors */
+  --chart-1: #00d4ff;
+  --chart-2: #a855f7;
+  --chart-3: #10b981;
+  --chart-4: #f59e0b;
+  --chart-5: #f97316;
+
+  /* Typography */
+  --font-display: var(--font-syne), 'Syne', sans-serif;
+  --font-mono:    var(--font-space-mono), 'Space Mono', monospace;
+  --font-body:    var(--font-dm-sans), 'DM Sans', sans-serif;
+
+  /* Radii */
+  --radius:    8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-secondary); }
+::-webkit-scrollbar-thumb { background: var(--border-hover); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* Spinner */
+.spinner {
+  width: 18px; height: 18px;
+  border: 2px solid var(--border);
+  border-top-color: var(--cyan);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block; flex-shrink: 0;
+}
+
+/* Animations */
+@keyframes spin       { to { transform: rotate(360deg); } }
+@keyframes fadeUp     { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn     { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulse-cyan {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+@keyframes slide-in-right {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+/* Select reset */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Number font */
+.num { font-family: var(--font-mono); }

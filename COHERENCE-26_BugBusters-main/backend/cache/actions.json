@@ -1,0 +1,387 @@
+[
+  {
+    "action_id": "14625f47-d4b0-5878-a074-64c1a97c73dd",
+    "status": "DRAFT",
+    "priority": "IMMEDIATE",
+    "created_at": "2026-03-07T03:18:23.431513+00:00",
+    "actioned_at": null,
+    "officer_note": "",
+    "detection": {
+      "state": "Karnataka",
+      "district": "Mangaluru",
+      "department": "Infrastructure",
+      "utilization_pct": 1.29,
+      "lapse_risk_pct": 94.3,
+      "pattern": "flatline",
+      "confidence_interval": [
+        88.3,
+        100
+      ],
+      "z_score": null,
+      "peer_mean": null
+    },
+    "recommendation": {
+      "action_type": "FUND_TRANSFER",
+      "from_district": "Mangaluru",
+      "from_department": "Infrastructure",
+      "to_district": "Belagavi",
+      "to_department": "Education",
+      "transfer_amount": 24682787.06,
+      "transfer_lakh": 246.83,
+      "transfer_pct": 18.9,
+      "scheme_compat": 0.4,
+      "gfr_note": "Transfer recommended under GFR Rule 15 (Re-appropriation of funds). Requires countersignature of Drawing and Disbursing Officer and approval of competent financial authority before execution."
+    },
+    "projected_impact": {
+      "from_util_before": 1.29,
+      "from_util_after": 20.15,
+      "from_lapse_before": 94.3,
+      "from_lapse_after": 69.77,
+      "to_util_before": 76.76,
+      "to_util_after": 100,
+      "net_gain": 21.05
+    },
+    "intervention_window": {
+      "window_closes_month": 9,
+      "days_remaining": 30,
+      "urgency": "IMMEDIATE",
+      "action_required": true,
+      "rationale": "Structural absorption failure \u2014 every additional month of inaction reduces recovery probability. Intervene this week."
+    },
+    "confidence": {
+      "confidence_score": 44,
+      "confidence_label": "LOW",
+      "scoring_trace": [
+        {
+          "factor": "Flatline pattern confirmed",
+          "points": "+25",
+          "detail": "3+ months of near-zero absorption \u2014 structural problem"
+        },
+        {
+          "factor": "Destination good utilization",
+          "points": "+12",
+          "detail": "76.8% \u2014 likely absorption capacity"
+        },
+        {
+          "factor": "Same-state transfer",
+          "points": "+15",
+          "detail": "Valid under GFR Rule 15 reappropriation"
+        },
+        {
+          "factor": "Large transfer size",
+          "points": "-8",
+          "detail": "18.9% of budget \u2014 may face approval delays"
+        }
+      ],
+      "transfer_pct": 18.9
+    }
+  },
+  {
+    "action_id": "2c72302c-2e68-54ef-9939-61798789d683",
+    "status": "DRAFT",
+    "priority": "IMMEDIATE",
+    "created_at": "2026-03-07T03:18:23.377522+00:00",
+    "actioned_at": null,
+    "officer_note": "",
+    "detection": {
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "department": "Infrastructure",
+      "utilization_pct": 1.02,
+      "lapse_risk_pct": 94.5,
+      "pattern": "flatline",
+      "confidence_interval": [
+        88.5,
+        100
+      ],
+      "z_score": null,
+      "peer_mean": null
+    },
+    "recommendation": {
+      "action_type": "FUND_TRANSFER",
+      "from_district": "Bengaluru",
+      "from_department": "Infrastructure",
+      "to_district": "Belagavi",
+      "to_department": "Education",
+      "transfer_amount": 24440513.73,
+      "transfer_lakh": 244.41,
+      "transfer_pct": 18.9,
+      "scheme_compat": 0.4,
+      "gfr_note": "Transfer recommended under GFR Rule 15 (Re-appropriation of funds). Requires countersignature of Drawing and Disbursing Officer and approval of competent financial authority before execution."
+    },
+    "projected_impact": {
+      "from_util_before": 1.02,
+      "from_util_after": 19.92,
+      "from_lapse_before": 94.5,
+      "from_lapse_after": 70.12,
+      "to_util_before": 76.76,
+      "to_util_after": 100,
+      "net_gain": 21.07
+    },
+    "intervention_window": {
+      "window_closes_month": 9,
+      "days_remaining": 30,
+      "urgency": "IMMEDIATE",
+      "action_required": true,
+      "rationale": "Structural absorption failure \u2014 every additional month of inaction reduces recovery probability. Intervene this week."
+    },
+    "confidence": {
+      "confidence_score": 44,
+      "confidence_label": "LOW",
+      "scoring_trace": [
+        {
+          "factor": "Flatline pattern confirmed",
+          "points": "+25",
+          "detail": "3+ months of near-zero absorption \u2014 structural problem"
+        },
+        {
+          "factor": "Destination good utilization",
+          "points": "+12",
+          "detail": "76.8% \u2014 likely absorption capacity"
+        },
+        {
+          "factor": "Same-state transfer",
+          "points": "+15",
+          "detail": "Valid under GFR Rule 15 reappropriation"
+        },
+        {
+          "factor": "Large transfer size",
+          "points": "-8",
+          "detail": "18.9% of budget \u2014 may face approval delays"
+        }
+      ],
+      "transfer_pct": 18.9
+    }
+  },
+  {
+    "action_id": "aa448238-a9ac-52c3-bf8e-09aa6789e245",
+    "status": "DRAFT",
+    "priority": "IMMEDIATE",
+    "created_at": "2026-03-07T03:18:23.407039+00:00",
+    "actioned_at": null,
+    "officer_note": "",
+    "detection": {
+      "state": "Karnataka",
+      "district": "Hubli",
+      "department": "Infrastructure",
+      "utilization_pct": 0.76,
+      "lapse_risk_pct": 94.7,
+      "pattern": "flatline",
+      "confidence_interval": [
+        88.7,
+        100
+      ],
+      "z_score": null,
+      "peer_mean": null
+    },
+    "recommendation": {
+      "action_type": "FUND_TRANSFER",
+      "from_district": "Hubli",
+      "from_department": "Infrastructure",
+      "to_district": "Belagavi",
+      "to_department": "Education",
+      "transfer_amount": 26578296.63,
+      "transfer_lakh": 265.78,
+      "transfer_pct": 18.9,
+      "scheme_compat": 0.4,
+      "gfr_note": "Transfer recommended under GFR Rule 15 (Re-appropriation of funds). Requires countersignature of Drawing and Disbursing Officer and approval of competent financial authority before execution."
+    },
+    "projected_impact": {
+      "from_util_before": 0.76,
+      "from_util_after": 19.7,
+      "from_lapse_before": 94.7,
+      "from_lapse_after": 70.45,
+      "to_util_before": 76.76,
+      "to_util_after": 100,
+      "net_gain": 21.09
+    },
+    "intervention_window": {
+      "window_closes_month": 9,
+      "days_remaining": 30,
+      "urgency": "IMMEDIATE",
+      "action_required": true,
+      "rationale": "Structural absorption failure \u2014 every additional month of inaction reduces recovery probability. Intervene this week."
+    },
+    "confidence": {
+      "confidence_score": 44,
+      "confidence_label": "LOW",
+      "scoring_trace": [
+        {
+          "factor": "Flatline pattern confirmed",
+          "points": "+25",
+          "detail": "3+ months of near-zero absorption \u2014 structural problem"
+        },
+        {
+          "factor": "Destination good utilization",
+          "points": "+12",
+          "detail": "76.8% \u2014 likely absorption capacity"
+        },
+        {
+          "factor": "Same-state transfer",
+          "points": "+15",
+          "detail": "Valid under GFR Rule 15 reappropriation"
+        },
+        {
+          "factor": "Large transfer size",
+          "points": "-8",
+          "detail": "18.9% of budget \u2014 may face approval delays"
+        }
+      ],
+      "transfer_pct": 18.9
+    }
+  },
+  {
+    "action_id": "e5c8a3f4-ffb6-5a70-9d53-bc19c77d8402",
+    "status": "DRAFT",
+    "priority": "IMMEDIATE",
+    "created_at": "2026-03-07T03:18:23.460336+00:00",
+    "actioned_at": null,
+    "officer_note": "",
+    "detection": {
+      "state": "Karnataka",
+      "district": "Mysuru",
+      "department": "Infrastructure",
+      "utilization_pct": 1.04,
+      "lapse_risk_pct": 94.5,
+      "pattern": "flatline",
+      "confidence_interval": [
+        88.5,
+        100
+      ],
+      "z_score": null,
+      "peer_mean": null
+    },
+    "recommendation": {
+      "action_type": "FUND_TRANSFER",
+      "from_district": "Mysuru",
+      "from_department": "Infrastructure",
+      "to_district": "Belagavi",
+      "to_department": "Education",
+      "transfer_amount": 22608212.07,
+      "transfer_lakh": 226.08,
+      "transfer_pct": 18.9,
+      "scheme_compat": 0.4,
+      "gfr_note": "Transfer recommended under GFR Rule 15 (Re-appropriation of funds). Requires countersignature of Drawing and Disbursing Officer and approval of competent financial authority before execution."
+    },
+    "projected_impact": {
+      "from_util_before": 1.04,
+      "from_util_after": 19.94,
+      "from_lapse_before": 94.5,
+      "from_lapse_after": 70.09,
+      "to_util_before": 76.76,
+      "to_util_after": 100,
+      "net_gain": 21.07
+    },
+    "intervention_window": {
+      "window_closes_month": 9,
+      "days_remaining": 30,
+      "urgency": "IMMEDIATE",
+      "action_required": true,
+      "rationale": "Structural absorption failure \u2014 every additional month of inaction reduces recovery probability. Intervene this week."
+    },
+    "confidence": {
+      "confidence_score": 44,
+      "confidence_label": "LOW",
+      "scoring_trace": [
+        {
+          "factor": "Flatline pattern confirmed",
+          "points": "+25",
+          "detail": "3+ months of near-zero absorption \u2014 structural problem"
+        },
+        {
+          "factor": "Destination good utilization",
+          "points": "+12",
+          "detail": "76.8% \u2014 likely absorption capacity"
+        },
+        {
+          "factor": "Same-state transfer",
+          "points": "+15",
+          "detail": "Valid under GFR Rule 15 reappropriation"
+        },
+        {
+          "factor": "Large transfer size",
+          "points": "-8",
+          "detail": "18.9% of budget \u2014 may face approval delays"
+        }
+      ],
+      "transfer_pct": 18.9
+    }
+  },
+  {
+    "action_id": "1c89687b-3a0a-5e7d-8091-16bc73d6bb1b",
+    "status": "DRAFT",
+    "priority": "IMMEDIATE",
+    "created_at": "2026-03-07T03:18:23.371520+00:00",
+    "actioned_at": null,
+    "officer_note": "",
+    "detection": {
+      "state": "Karnataka",
+      "district": "Belagavi",
+      "department": "Infrastructure",
+      "utilization_pct": 0.83,
+      "lapse_risk_pct": 94.6,
+      "pattern": "flatline",
+      "confidence_interval": [
+        88.6,
+        100
+      ],
+      "z_score": null,
+      "peer_mean": null
+    },
+    "recommendation": {
+      "action_type": "FUND_TRANSFER",
+      "from_district": "Belagavi",
+      "from_department": "Infrastructure",
+      "to_district": "Belagavi",
+      "to_department": "Education",
+      "transfer_amount": 22182303.9,
+      "transfer_lakh": 221.82,
+      "transfer_pct": 18.9,
+      "scheme_compat": 0.4,
+      "gfr_note": "Transfer recommended under GFR Rule 15 (Re-appropriation of funds). Requires countersignature of Drawing and Disbursing Officer and approval of competent financial authority before execution."
+    },
+    "projected_impact": {
+      "from_util_before": 0.83,
+      "from_util_after": 19.75,
+      "from_lapse_before": 94.6,
+      "from_lapse_after": 70.37,
+      "to_util_before": 76.76,
+      "to_util_after": 100,
+      "net_gain": 21.08
+    },
+    "intervention_window": {
+      "window_closes_month": 9,
+      "days_remaining": 30,
+      "urgency": "IMMEDIATE",
+      "action_required": true,
+      "rationale": "Structural absorption failure \u2014 every additional month of inaction reduces recovery probability. Intervene this week."
+    },
+    "confidence": {
+      "confidence_score": 44,
+      "confidence_label": "LOW",
+      "scoring_trace": [
+        {
+          "factor": "Flatline pattern confirmed",
+          "points": "+25",
+          "detail": "3+ months of near-zero absorption \u2014 structural problem"
+        },
+        {
+          "factor": "Destination good utilization",
+          "points": "+12",
+          "detail": "76.8% \u2014 likely absorption capacity"
+        },
+        {
+          "factor": "Same-state transfer",
+          "points": "+15",
+          "detail": "Valid under GFR Rule 15 reappropriation"
+        },
+        {
+          "factor": "Large transfer size",
+          "points": "-8",
+          "detail": "18.9% of budget \u2014 may face approval delays"
+        }
+      ],
+      "transfer_pct": 18.9
+    }
+  }
+]
