@@ -3,7 +3,7 @@ engines/action_queue.py
 Pre-justified, pre-calculated transfer orders awaiting officer approval.
 
 BUGS FIXED vs v1:
-  11. get_queue_summary: signature was get_queue_summary(actions: list) —
+  11. get_queue_summary: signature was get_queue_summary(actions: list) -
       copilot_engine.py calls it as get_queue_summary(year, month).
       Fixed: overloaded to accept BOTH calling conventions.
   12. generate_action_queue: demand match could pick the same dept as source
