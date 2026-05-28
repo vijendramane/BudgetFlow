@@ -4,7 +4,7 @@ interface ChatMessage {
   role: 'user' | 'assistant'
   content: string
   intent?: string
-  source?: 'groq' | 'rule' 
+  source?: 'groq' | 'rule'
 }
  
 interface AppState {
