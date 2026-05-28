@@ -3,7 +3,7 @@ import { create } from 'zustand'
 interface ChatMessage {
   role: 'user' | 'assistant'
   content: string
-  intent?: string
+  intent?: string 
   source?: 'groq' | 'rule'
 }
  
