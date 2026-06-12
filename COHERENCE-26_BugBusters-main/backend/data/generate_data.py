@@ -11,7 +11,7 @@ Patterns deliberately baked in:
   - 1 clean healthy district (control group)
   - Seasonal ramp-up pattern for normal departments
 """
-
+ 
 import pandas as pd
 import numpy as np
 import os
