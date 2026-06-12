@@ -6,7 +6,7 @@ Generates two production-quality simulated datasets:
 
 Patterns deliberately baked in:
   - 3 leakage edges (amount_received < 85% of amount_released)
-  - March Rush spike in months 11–12 for 3 departments
+  - March Rush spike in months 11–12 for 3 departments 
   - 2 flat-line departments (near-zero absorption months 4–8)
   - 1 clean healthy district (control group)
   - Seasonal ramp-up pattern for normal departments
