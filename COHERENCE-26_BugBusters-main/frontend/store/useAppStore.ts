@@ -6,7 +6,7 @@ interface ChatMessage {
   content: string
   intent?: string 
   source?: 'groq' | 'rule'
-}
+} 
  
 interface AppState {
   selectedYear:       number
